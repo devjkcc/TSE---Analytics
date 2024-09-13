@@ -6,7 +6,7 @@ Esse dataset se refere a candidatos de vários partidos brasileiros, seu genero,
 
 ## Objetivo
 
-O objetivo principal desse projeto é analisar as proporções de cor e genero e avaliar quais são os cargos mais comuns baseado nesses dados.
+O objetivo principal desse projeto é fazer uma análise descritiva dos dados.
 
 ## Premissas
 
@@ -31,3 +31,9 @@ O objetivo principal desse projeto é analisar as proporções de cor e genero e
 | PCO           | 4,534,885,976| 0.00081               | 1,132                  | 240               | 21.20                  | 148                  | 13.07             | 688                   | 0.04                           |
 | PSTU          | 7,383,123,976| 0.00131               | 1,168                  | 248               | 21.23                  | 196                  | 16.78             | 636                   | 0.03                           |
 | PSOL          | 158,102,000,000| 0.02809             | 31,424                 | 6,348             | 20.20                  | 4,452                | 14.17             | 15,720                | 0.86                           |
+
+# Conclusões a partir dessas tabelas
+- Os partidos mais ricos representam 40.5% do total de candidaturas. Ou seja, a cada 5 candidatos, 2 são filiados aos partidos mais ricos
+- A proporção de mulheres se mantém praticamente a mesma tanto nos mais ricos quanto nos menos ricos (20 - 25%). O que representa aproximadamente 1/4 do total de pessoas por partido
+- De uma forma geral, os partidos mais ricos possuem um intervalo semelhante de pessoas pretas(5 - 7%). Já os partidos mais pobres possuem uma proporção praticamente duplicada de representantes pretos (13 - 20%)
+- Isso significa que nos partidos mais pobres, mulheres e pessoas pretas representam aproximadamente 40% ou mais do total de pessoas. Enquanto nos partidos mais ricos isso representa aproximadamente 30%.
