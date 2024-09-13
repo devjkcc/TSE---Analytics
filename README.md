@@ -13,7 +13,7 @@ O objetivo principal desse projeto é fazer uma análise descritiva dos dados.
 - A base de dados utilizada foi disponibilizada pelo *Kaggle.com*.
 - Existia um valor discrepante em relação ao total de Bens do partido MDB. Ao identificar esse erro através de consultas sql, os valores discrepantes foram substituidos pela média geral
 
-# Representação dos 5 partidos mais ricos e suas proporções.
+## Representação dos 5 partidos mais ricos e suas proporções.
 
 | Partido       | TotalBens    | Taxa total de bens (%) | Total Pessoas em Geral | Total de Mulheres | % Mulheres sobre Total | Total Pessoas Pretas | % Pessoas Pretas | Total de Candidaturas | % Sobre Total de Candidaturas |
 |---------------|--------------|-----------------------|------------------------|-------------------|------------------------|----------------------|------------------|-----------------------|--------------------|
@@ -23,7 +23,7 @@ O objetivo principal desse projeto é fazer uma análise descritiva dos dados.
 | PP            | 3,99150E+11  | 0.07                  | 223,168                | 52,760            | 23.64                  | 14,784               | 6.62             | 158,384               | 8.63                           |
 | Republicanos  | 3,97952E+11  | 0.07                  | 207,960                | 45,436            | 21.85                  | 14,812               | 7.12             | 134,964               | 7.35                           |
 
-# Representação dos 5 partidos menos ricos e suas proporções
+## Representação dos 5 partidos menos ricos e suas proporções
 | Partido       | TotalBens    | Taxa total de bens (%) | Total Pessoas em Geral | Total de Mulheres | % Mulheres sobre Total | Total Pessoas Pretas | % Pessoas Pretas  | Total de Candidaturas | % Sobre Total de Candidaturas |
 |---------------|--------------|-----------------------|------------------------|-------------------|------------------------|----------------------|-------------------|-----------------------|-------------------|
 | UP            | 2,143,924,816| 0.00038               | 868                    | 232               | 26.73                  | 144                  | 16.59             | 440                   | 0.02                           |
@@ -32,8 +32,39 @@ O objetivo principal desse projeto é fazer uma análise descritiva dos dados.
 | PSTU          | 7,383,123,976| 0.00131               | 1,168                  | 248               | 21.23                  | 196                  | 16.78             | 636                   | 0.03                           |
 | PSOL          | 158,102,000,000| 0.02809             | 31,424                 | 6,348             | 20.20                  | 4,452                | 14.17             | 15,720                | 0.86                           |
 
-# Conclusões a partir dessas tabelas
+## Conclusões a partir dessas tabelas
 - Os partidos mais ricos representam 40.5% do total de candidaturas. Ou seja, a cada 5 candidatos, 2 são filiados aos partidos mais ricos
 - A proporção de mulheres se mantém praticamente a mesma tanto nos mais ricos quanto nos menos ricos (20 - 25%). O que representa aproximadamente 1/4 do total de pessoas por partido
 - De uma forma geral, os partidos mais ricos possuem um intervalo semelhante de pessoas pretas(5 - 7%). Já os partidos mais pobres possuem uma proporção praticamente duplicada de representantes pretos (13 - 20%)
 - Isso significa que nos partidos mais pobres, mulheres e pessoas pretas representam aproximadamente 40% ou mais do total de pessoas. Enquanto nos partidos mais ricos isso representa aproximadamente 30%.
+
+  ### Principais consultas SQL utilizadas
+```sql
+-- Consulta para retornar o somatório dos bens agrupado por partido
+SELECT SUM(totalBens) AS totalBensPartido, SG_PARTIDO
+FROM tse_analytics_partidos
+GROUP BY SG_PARTIDO;
+```
+```sql
+-- Consulta para retornar o somatório de mulheres por partido
+SELECT SUM(totalGenFeminino) AS totalGenFeminino, SG_PARTIDO
+FROM tse_analytics_partidos
+GROUP BY SG_PARTIDO;
+```
+```sql
+-- Consulta para calcular a quantidade de pessoas por partido
+SELECT SG_PARTIDO,
+    SUM(totalGenFeminino) AS totalGenFeminino,
+    SUM(totalCorRacaPreta) AS totalCorRacaPreta,
+    SUM(totalCorRacaPretaParda) AS totalCorRacaPretaParda,
+    SUM(totalCorNaoBranca) AS totalCorNaoBranca
+FROM tse_analytics_partidos
+GROUP BY SG_PARTIDO;
+```
+```sql
+-- Consulta para retornar o total de candidaturas por partido
+SELECT sum(totalCandidaturas) AS somaTotal, SG_PARTIDO
+FROM tse_analytics_partidos
+GROUP BY SG_PARTIDO
+ORDER BY somaTotal DESC;
+```
