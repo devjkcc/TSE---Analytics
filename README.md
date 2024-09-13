@@ -25,4 +25,4 @@ O objetivo principal desse projeto é analisar as proporções de cor e genero e
 
 - A partir dessa tabela, observamos que:
 - Os 5 partidos mais ricos possuem aproximadamente 4,1% do total de bens geral
-- Representam 40,11% do total de candidaturas. Ou seja, 5 partidos representam quase 50% do total de candidatos.
+- Representam 40,11% do total de candidaturas. Ou seja, 5 partidos representam quase 2/5 do total de candidatos.
