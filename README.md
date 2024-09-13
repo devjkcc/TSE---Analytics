@@ -13,7 +13,7 @@ O objetivo principal desse projeto é analisar as proporções de cor e genero e
 - A base de dados utilizada foi disponibilizada pelo *Kaggle.com*.
 - Existia um valor discrepante em relação ao total de Bens do partido MDB. Ao identificar esse erro através de consultas sql, os valores discrepantes foram substituidos pela média geral
 
-# Análise dos partidos mais ricos e suas proporções.
+# Representação dos 5 partidos mais ricos e suas proporções.
 
 | Partido       | TotalBens    | Taxa total de bens (%) | Total Pessoas em Geral | Total de Mulheres | % Mulheres sobre Total | Total Pessoas Pretas | % Pessoas Pretas | Total de Candidaturas | % Sobre Total de Candidaturas |
 |---------------|--------------|-----------------------|------------------------|-------------------|------------------------|----------------------|------------------|-----------------------|--------------------|
@@ -23,6 +23,11 @@ O objetivo principal desse projeto é analisar as proporções de cor e genero e
 | PP            | 3,99150E+11  | 0.07                  | 223,168                | 52,760            | 23.64                  | 14,784               | 6.62             | 158,384               | 8.63                           |
 | Republicanos  | 3,97952E+11  | 0.07                  | 207,960                | 45,436            | 21.85                  | 14,812               | 7.12             | 134,964               | 7.35                           |
 
-- A partir dessa tabela, observamos que:
-- Os 5 partidos mais ricos possuem aproximadamente 4,1% do total de bens geral
-- Representam 40,11% do total de candidaturas. Ou seja, 5 partidos representam quase 2/5 do total de candidatos.
+# Representação dos 5 partidos menos ricos e suas proporções
+| Partido       | TotalBens    | Taxa total de bens (%) | Total Pessoas em Geral | Total de Mulheres | % Mulheres sobre Total | Total Pessoas Pretas | % Pessoas Pretas  | Total de Candidaturas | % Sobre Total de Candidaturas |
+|---------------|--------------|-----------------------|------------------------|-------------------|------------------------|----------------------|-------------------|-----------------------|-------------------|
+| UP            | 2,143,924,816| 0.00038               | 868                    | 232               | 26.73                  | 144                  | 16.59             | 440                   | 0.02                           |
+| PCB           | 2,804,061,608| 0.00050               | 240                    | 44                | 18.33                  | 48                   | 20.00             | 140                   | 0.01                           |
+| PCO           | 4,534,885,976| 0.00081               | 1,132                  | 240               | 21.20                  | 148                  | 13.07             | 688                   | 0.04                           |
+| PSTU          | 7,383,123,976| 0.00131               | 1,168                  | 248               | 21.23                  | 196                  | 16.78             | 636                   | 0.03                           |
+| PSOL          | 158,102,000,000| 0.02809             | 31,424                 | 6,348             | 20.20                  | 4,452                | 14.17             | 15,720                | 0.86                           |
