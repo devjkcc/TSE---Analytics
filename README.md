@@ -83,7 +83,7 @@ ORDER BY somaTotal DESC;
 - Histograma
 <div>
   
-![image](https://github.com/user-attachments/assets/f7d5ca36-0eb0-4264-9938-ad8dcab18737)
+![image](https://github.com/user-attachments/assets/eda770b0-c3d5-4599-9024-c8108d7fa224)
 ![image](https://github.com/user-attachments/assets/36a850d8-9027-46db-a00a-2505d65f1a23)
 
   
