@@ -80,4 +80,13 @@ ORDER BY somaTotal DESC;
 
 * Após a montagem de uma tabela com os 5 partidos mais ricos e os menos ricos( baseado na somatória de bens), montei o box plot acima para verificar se havia valores discrepantes. Como pode ser visto, não há outliers, a maioria dos partidos possuem sua renda variando em torno da mediana, existem partidos com rendas altas, porém se encontra dentro daquilo que é esperado.
 
+- Histograma
+<div>
+  
+![image](https://github.com/user-attachments/assets/f7d5ca36-0eb0-4264-9938-ad8dcab18737)
+![image](https://github.com/user-attachments/assets/36a850d8-9027-46db-a00a-2505d65f1a23)
+
+  
+</div>
+
 
