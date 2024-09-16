@@ -86,5 +86,6 @@ ORDER BY somaTotal DESC;
 ![image](https://github.com/user-attachments/assets/eda770b0-c3d5-4599-9024-c8108d7fa224)
 
 </div>
+* Como se pode observar, a maior quantidade de mulheres eleitas se dá em brasilia, que é também o local com o maior numero de candidatos e a maior concentração de pessoas no partido
 
 
