@@ -68,3 +68,11 @@ FROM tse_analytics_partidos
 GROUP BY SG_PARTIDO
 ORDER BY somaTotal DESC;
 ```
+
+## Análise exploratória
+- Box Plot
+![image](https://github.com/user-attachments/assets/817e8b1a-7d07-416b-8132-bd42869c53fb)
+
+* Após a montagem de uma tabela com os 5 partidos mais ricos e os menos ricos( baseado na somatória de bens), montei o box plot acima para verificar se havia valores discrepantes. Como pode ser visto, não há outliers, a maioria dos partidos possuem sua renda variando em torno da mediana, existem partidos com rendas altas, porém se encontra dentro daquilo que é esperado.
+
+
