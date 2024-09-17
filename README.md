@@ -101,4 +101,16 @@ ORDER BY somaTotal DESC;
 
 * Esse gráfico de dispersão nos mostra que boa parte dos partidos possuem seus bens bem distribuidos. Porém, alguns partidos como PL, União e PSD, que são os 3 mais ricos, possuem uma concentração de renda maior, o que significa que há candidatos com rendas bem maiores que os outros do partido. A partir dessa informação pode-se dizer também que esses partidos não são os mais ricos porque necessariamente seus represantantes possuem mais bens, mas sim porque alguns dos seus colaboradores puxam para cima o somatório geral e a média
 
+#### Provando a afirmativa
+
+| Partido       | Média de bens   | Mediana de bens |
+|---------------|-----------------|----------------|
+| PL            | 9189469391125920 | 70233656345   |
+| UNIÃO         | 7091265670996290 | 7713790596    |
+| PSD           | 4310984595155140 | 7093623396    |
+| PP            | 3695829871759250 | 91724396475   |
+| REPUBLICANOS  | 36847384165     | 63187824235    |
+
+* Nessa tabela observa-se o que foi comentado. Perceba que todos os 5 partidos possuem medianas proximas, e até mesmo o quarto partido (PP) aparece com um mediana alta, o que significa que seus colaboradores de uma forma geral possuem mais bens. Porém, como a média é uma medida que sofre tendencias a valores muito alto ou muito baixos, o PL dispara na frente, pois existem valores muito altos em comparação com o resto, o que faz sua média aumentar consideravelmente. 
+
 
