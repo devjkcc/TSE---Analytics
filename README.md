@@ -81,14 +81,24 @@ ORDER BY somaTotal DESC;
 
 ### Dispersão
 
-<div align = "left">
+<div align = "center">
 
 ![image](https://github.com/user-attachments/assets/496dffce-1a45-466c-8aa7-048bb5af4d03)
-<div align = "right">
-![image](https://github.com/user-attachments/assets/3b41cdaf-68f5-4ba4-a209-4d51f4b3712d)
-</div>
+
 </div>
 
 * Observa-se que esse gráfico de dispersão entre idade e totalbens nos mostra que a grande maioria dos valores está normalmente distribuido, visto que boa parte deles estão perto da média.
+
+### Dispersão sobre concentração de bens
+
+<div align = "center">
+
+  
+![image](https://github.com/user-attachments/assets/3b41cdaf-68f5-4ba4-a209-4d51f4b3712d)
+
+
+</div>
+
+* Esse gráfico de dispersão nos mostra que boa parte dos partidos possuem seus bens bem distribuidos. Porém, alguns partidos como PL, União e PSD, que são os 3 mais ricos, possuem uma concentração de renda maior, o que significa que há candidatos com rendas bem maiores que os outros do partido.
 
 
