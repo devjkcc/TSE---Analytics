@@ -103,6 +103,8 @@ ORDER BY somaTotal DESC;
 
 #### Provando a afirmativa
 
+<div align = "center">
+
 | Partido       | Média de bens   | Mediana de bens |
 |---------------|-----------------|----------------|
 | PL            | 9189469391125920 | 70233656345   |
@@ -110,6 +112,8 @@ ORDER BY somaTotal DESC;
 | PSD           | 4310984595155140 | 7093623396    |
 | PP            | 3695829871759250 | 91724396475   |
 | REPUBLICANOS  | 36847384165     | 63187824235    |
+
+</div>
 
 * Nessa tabela observa-se o que foi comentado. Perceba que todos os 5 partidos possuem medianas proximas, e até mesmo o quarto partido (PP) aparece com um mediana alta, o que significa que seus colaboradores de uma forma geral possuem mais bens. Porém, como a média é uma medida que sofre tendencias a valores muito alto ou muito baixos, o PL dispara na frente, pois existem valores muito altos em comparação com o resto, o que faz sua média aumentar consideravelmente. 
 
