@@ -81,11 +81,14 @@ ORDER BY somaTotal DESC;
 
 ### Dispersão
 
-<div align = "center">
+<div align = "left">
 
 ![image](https://github.com/user-attachments/assets/496dffce-1a45-466c-8aa7-048bb5af4d03)
-
+<div align = "right">
+![image](https://github.com/user-attachments/assets/3b41cdaf-68f5-4ba4-a209-4d51f4b3712d)
+</div>
 </div>
 
-* Observa-se que esse gráfico de dispersão nos mostra que a grande maioria dos valores está normalmente distribuido, visto que boa parte deles estão perto da média. 
+* Observa-se que esse gráfico de dispersão entre idade e totalbens nos mostra que a grande maioria dos valores está normalmente distribuido, visto que boa parte deles estão perto da média.
+
 
