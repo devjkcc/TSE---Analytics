@@ -99,6 +99,6 @@ ORDER BY somaTotal DESC;
 
 </div>
 
-* Esse gráfico de dispersão nos mostra que boa parte dos partidos possuem seus bens bem distribuidos. Porém, alguns partidos como PL, União e PSD, que são os 3 mais ricos, possuem uma concentração de renda maior, o que significa que há candidatos com rendas bem maiores que os outros do partido.
+* Esse gráfico de dispersão nos mostra que boa parte dos partidos possuem seus bens bem distribuidos. Porém, alguns partidos como PL, União e PSD, que são os 3 mais ricos, possuem uma concentração de renda maior, o que significa que há candidatos com rendas bem maiores que os outros do partido. A partir dessa informação pode-se dizer também que esses partidos não são os mais ricos porque necessariamente seus represantantes possuem mais bens, mas sim porque alguns dos seus colaboradores puxam para cima o somatório geral e a média
 
 
