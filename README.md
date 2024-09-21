@@ -71,6 +71,7 @@ ORDER BY somaTotal DESC;
 
 ## Análise exploratória
 ### Box Plot
+* ### Box Plot total bens por partido
 <div align = "center">
   
 ![image](https://github.com/user-attachments/assets/270954ba-8634-4100-bd21-809a05a3c108)
@@ -78,6 +79,26 @@ ORDER BY somaTotal DESC;
 </div>
 
 * Após a montagem de uma tabela com os 5 partidos mais ricos e os menos ricos( baseado na somatória de bens), montei o box plot acima para verificar se havia valores discrepantes. Como pode ser visto, não há outliers, a maioria dos partidos possuem sua renda variando em torno da mediana, existem partidos com rendas altas, porém se encontra dentro daquilo que é esperado.
+
+### Box plot com total de candidaturas por partido
+<div align = "center">
+![image](https://github.com/user-attachments/assets/0d2e5d05-e5bf-47b0-bfec-140124a61c22)
+  
+</div>
+
+* Após agrupar a quantidade de candidaturas por partido, esse box plot nos mostra que mediana de candidaturas está aproximadamente em 26 mil candidaturas e a média aproximadamente em 73 mil. Não há outliers nesse gráfico, porém, percebe-se que a média está sendo altamente influeciada pelos valores mais altos de candidaturas, como o mais alto(175 mil). A tabela abaixo que será mostrada, foi gerada a partir de um filtro do banco de dados mostrando os 5 maiores partidos em relação ao total de candidaturas.
+
+<div align = "center">
+| Partido | totalCandidaturas |
+|---------|-------------------|
+| MDB     | 176344            |
+| PP      | 158384            |
+| PSD     | 154488            |
+| UNIÃO   | 145360            |
+| PL      | 142960            |
+</div>
+
+* Vê-se, portanto que dos 5 partidos com maior quantidade de candidaturas, 4 estão entre os mais ricos, e com valores bem acima da média e da mediana
 
 ### Dispersão
 
