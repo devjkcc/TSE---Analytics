@@ -110,14 +110,3 @@ ORDER BY somaTotal DESC;
 </div>
 
 * Observa-se que essa gráfico de dispersão nos mostra que existe uma correlação positiva entre quantidade de candidaturas e total de bens, essa correlação foi calculada chegando a um valor de 0.83. O que significa uma forte correlação entre variáveis. Ou seja, quando o total de bens aumenta, a quantidade de candidaturas também tende a aumentar.
-
-### Dispersão
-
-<div align = "center">
-
-![image](https://github.com/user-attachments/assets/496dffce-1a45-466c-8aa7-048bb5af4d03)
-
-</div>
-
-* Observa-se que esse gráfico de dispersão entre idade e totalbens nos mostra que a grande maioria dos valores está normalmente distribuido, visto que boa parte deles estão perto da média.
-
