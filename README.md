@@ -103,6 +103,14 @@ ORDER BY somaTotal DESC;
 
 * Vê-se, portanto que dos 5 partidos com maior quantidade de candidaturas, 4 estão entre os mais ricos, e com valores bem acima da média e da mediana
 
+### Quantidade de candidaturas pelo total de bens
+<div align = "center">
+
+![image](https://github.com/user-attachments/assets/a153607a-42e7-4b5a-97e1-2e60971547db)
+</div>
+
+* Observa-se que essa gráfico de dispersão nos mostra que existe uma correlação positiva entre quantidade de candidaturas e total de bens, essa correlação foi calculada chegando a um valor de 0.83. O que significa uma forte correlação entre variáveis. Ou seja, quando o total de bens aumenta, a quantidade de candidaturas também tende a aumentar.
+
 ### Dispersão
 
 <div align = "center">
