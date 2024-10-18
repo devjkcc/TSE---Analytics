@@ -120,6 +120,8 @@ ORDER BY somaTotal DESC;
 
   
 ![image](https://github.com/user-attachments/assets/b508edee-e613-4155-95dd-c2fbf70c1ec3)
+![image](https://github.com/user-attachments/assets/b508edee-e613-4155-95dd-c2fbf70c1ec3)
+
 
 
 </div>
