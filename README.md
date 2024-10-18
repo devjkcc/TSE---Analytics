@@ -110,3 +110,14 @@ ORDER BY somaTotal DESC;
 </div>
 
 * Observa-se que essa gráfico de dispersão nos mostra que existe uma correlação positiva entre quantidade de candidaturas e total de bens, essa correlação foi calculada chegando a um valor de 0.83. O que significa uma forte correlação entre variáveis. Ou seja, quando o total de bens aumenta, a quantidade de candidaturas também tende a aumentar.
+
+
+## Visualização Geral
+* Para finalizar, desenvolvi uma visualização mais abrangente do estudo feito.
+
+<div align="center>
+  
+![image](https://github.com/user-attachments/assets/ca17ac12-8c7e-497b-9810-5a5a56e58a47)
+
+</div>
+
