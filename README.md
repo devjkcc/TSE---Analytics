@@ -113,7 +113,8 @@ ORDER BY somaTotal DESC;
 
 
 ## Visualização Geral
-* Para finalizar, desenvolvi uma visualização mais abrangente do estudo feito.
+
+
 
 <div align="center>
 
