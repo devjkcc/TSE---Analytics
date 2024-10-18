@@ -116,8 +116,8 @@ ORDER BY somaTotal DESC;
 * Para finalizar, desenvolvi uma visualização mais abrangente do estudo feito.
 
 <div align="center>
-  
-![image](https://github.com/user-attachments/assets/ca17ac12-8c7e-497b-9810-5a5a56e58a47)
 
+  
+![image](https://github.com/user-attachments/assets/34105c54-6db5-4e9f-8751-945e22aac90a)
 </div>
 
